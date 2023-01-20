@@ -1,0 +1,21 @@
+{
+    "name": "mortezamatbou/second-package",
+    "description": "My Second Package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morteza Matbou",
+            "email": "mortezamatbou91@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SecondPackage\\Test\\": "src/"
+        }
+    }
+}
